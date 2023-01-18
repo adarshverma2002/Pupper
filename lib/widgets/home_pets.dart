@@ -77,7 +77,7 @@ class _homePetsState extends State<homePets> {
                         Row(
                           children: [
                             Padding(
-                              padding: const EdgeInsets.all(8.0),
+                              padding: const EdgeInsets.all(7.0),
                               child: Text(
                                 data!.animals![index].name.toString(),
                                 style: TextStyle(fontWeight: FontWeight.bold),
